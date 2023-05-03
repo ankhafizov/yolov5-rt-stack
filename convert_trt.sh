@@ -1,1 +1,1 @@
-python tools/export_model.py --checkpoint_path yolov5m6.pt --include engine 
+python tools/export_model.py --checkpoint_path yolov5m6.pt --include engine #  --image_size 800
