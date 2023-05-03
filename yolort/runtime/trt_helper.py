@@ -38,7 +38,7 @@ def export_tensorrt_engine(
     engine_path: Optional[str] = None,
     input_sample: Optional[Tensor] = None,
     detections_per_img: int = 100,
-    precision: str = "fp32",
+    precision: str = "fp16",
     verbose: bool = False,
     workspace: int = 12,
     simplify: bool = False,
